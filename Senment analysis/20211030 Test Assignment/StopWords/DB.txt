@@ -1,0 +1,43 @@
+apposcr
+
+2#036A9a
+
+select * from control
+
+use posdbir	
+
+select ISHEADER=  Case when BILLTYPE ='GIFT' then 3 else 1 end, ACXCORPCODE = -1,upper(BILLTYPE) BILLTYPE,sum(saleamt) NETSALEAMT,
+                                    Cast(sum(discamt)as decimal(12,2)) DISCAMT,Cast(sum(RETAMT) as decimal(12,2)) NETRETAMT,Cast(sum(RETDISC) as decimal(12,2))
+                                    RETDISC,sum(isscnt) SALECOUNT
+                                    ,sum(retcnt) RETCNT from (
+                                    select  name billtype,Cast(sum(AMOUNTTENDERED)as decimal(12,2)) saleamt,sum(DISCAMOUNT) DISCAMT, 0 RETAMT,0 RETDISC,count(distinct rt.receiptid) isscnt,0 retcnt from 
+                                    ax.retailtransactiontable rt,ax.RETAILTRANSACTIONPAYMENTTRANS rpt,RETAILTENDERTYPETABLE rtt
+                                    where ENTRYSTATUS = 0  and acxtranstype=0 and rt.TRANSACTIONID = rpt.TRANSACTIONID and rt.RECEIPTID = rpt.RECEIPTID 
+                                    and rpt.TENDERTYPE = rtt.TENDERTYPEID and TRANSACTIONSTATUS = 0 
+                                    and rpt.BUSINESSDATE between '01-jan-2025' and '01-jan-2025' 
+                                    and rpt.RECEIPTID not in (Select  IQ.receiptid from ax.RETAILTRANSACTIONPAYMENTTRANS as IQ where IQ.receiptid like 'IP%' and IQ.tendertype in(1,2)
+                                    and IQ.BUSINESSDATE between '01-jan-2025' and '01-jan-2025' ) group by name,DISCAMOUNT
+                                    union  
+                                    select name,0 saleamt,0 DISCAMT,Sum(AMOUNTTENDERED) AMOUNTTENDERED,sum(-1*DISCAMOUNT) DISCAMOUNT,0 isscnt,count(distinct rt.receiptid) retcnt from 
+                                    ax.retailtransactiontable rt,ax.RETAILTRANSACTIONPAYMENTTRANS rpt,RETAILTENDERTYPETABLE rtt
+                                    where ENTRYSTATUS = 0  and acxtranstype<>0 and rt.TRANSACTIONID = rpt.TRANSACTIONID and rt.RECEIPTID = rpt.RECEIPTID 
+                                    and rpt.TENDERTYPE = rtt.TENDERTYPEID and TRANSACTIONSTATUS = 0 and
+                                                    rpt.BUSINESSDATE between '01-jan-2025' and '01-jan-2025'  group by name ) a group by billtype
+                                    union all
+                                    select ISHEADER=0,ACXCORPCODE,ax.getcorporatename(acxcorpcode) CORPORATE,
+                                    (cast(sum(CASE WHEN  ACXCORPCODE ='172' AND ACXCREDIT = 0 THEN 0 ELSE -1*GROSSAMOUNT END) -sum(case when ACXTRANSTYPE = 0 then discamount
+                                    when ACXTRANSTYPE <> 0 then -1*discamount   end)as decimal(18,2)) - sum(ACXLOYALTY)) NETAMT,0,0,0,count(distinct CASE WHEN ACXCORPCODE='172' AND ACXCREDIT = 0 THEN NULL ELSE  receiptid END) BILLCNT,0 
+                                    from ax.retailtransactiontable where ENTRYSTATUS = 0 
+                                    and BUSINESSDATE between '01-jan-2025' and '01-jan-2025'
+                                    group by acxcorpcode
+                                    union all
+                                    Select 2,PAYMENTCODE,'HEALINGCARD-' + PAYMENTTYPE,sum(TRANSAMT) Amount,0,0,0,0,0 
+                                    from HEALING_CARD_TRANSACTION where ACTIONID in (0,1)
+                                                and cast(TRANSACTIONDATE as date) between '01-jan-2025' and '01-jan-2025'
+                                    group by PAYMENTCODE,PAYMENTTYPE
+                                     union all
+                                    Select 4,0,'OMS CASH COLLECTION',isnull(SUM(COLLECTEDAMT),0) as COLLECTEDAMT,0,0,0,0,0  from ax.ACXSETTLEMENTDETAILS
+                                    where cast(SETTLEMENTDATE as date) between '01-jan-2025' and '01-jan-2025'
+                                union  all                    
+                    select 5,tendertype,'IP COLLECTION',isnull(SUM(AMOUNTTENDERED), 0) as COLLECTEDAMT,0,0,0,0,0 from ax.retailtransactionpaymenttrans where tendertype in(1,2)  and  receiptid like 'IP%'
+                    and BUSINESSDATE between '01-jan-2025' and '01-jan-2025' group by tendertype

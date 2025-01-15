@@ -1,0 +1,63 @@
+Title: Budget, Sales KPI Dashboard using Power BI - Blackcoffer Insights
+
+Home
+Our Success Stories
+Budget, Sales KPI Dashboard using Power BI
+Our Success Stories
+Banking Securities, and Insurance
+Lifestyle & eCommerce
+Budget, Sales KPI Dashboard using Power BI
+By
+Ajay Bidyarthy
+-
+July 29, 2021
+7518
+Project Description
+Weekly Data – clustered bar chart for weekly Budget & Actual value , weekly Total Budget & Actual value (completed)
+YTD Data – clustered bar chart for monthly Budget & Actual value , monthly Total Budget & Actual value (completed)
+Sales History – stacked chart for yearly sales with each month sales , total yearly sale (completed)
+Dashlet – weekly data – Total weekly Budget , Total weekly Actual , % weekly Budget (completed)
+Dashlet – YTD data – Total YTD Budget , Total YTD Actual , % YTD Budget (completed)
+Dashlet – Sales History – Total Sales (completed)
+Filters – select Area , select City , select Years (completed)
+Data Visualization Deliverables
+Presentation
+Map
+Dashboard
+API Integration
+Data Visualization Tools
+Kibana
+Google Data Studio
+Microsoft Excel
+Microsoft Power BI
+Data Visualization Languages
+JavaScript
+SQL
+Python
+DAX
+Demo
+Previous article
+Benefits of Big Data in Different fields
+Next article
+ELK Stack – Elastic Queries
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+Automate the Data Management Process
+August 8, 2023
+The Emergence of Data Analytics
+January 11, 2019
+Equity Waterfalls Model-Based SaaS Application for Real Estate Sector
+July 26, 2023
+Off-Page SEO
+September 18, 2020
+Load more
+RECOMMENDED INSIGHTS
+AI-Driven Backend for Audio-to-Text Conversion and Analytical Assessment in Pharmaceutical Practice
+Solution to quadratic assignment problems (QAP) using Ant Colony System
+How Machines, AI, Automations, and Robo-human are Effective in Finance and...
+The Emergence of Data Analytics

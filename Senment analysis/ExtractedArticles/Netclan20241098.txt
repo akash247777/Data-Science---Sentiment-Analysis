@@ -1,0 +1,76 @@
+Title: Transform API into SDK library and widget - Blackcoffer Insights
+
+Home
+Our Success Stories
+Transform API into SDK library and widget
+Our Success Stories
+Healthcare
+IT
+Transform API into SDK library and widget
+By
+Ajay Bidyarthy
+-
+September 15, 2022
+5793
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT
+Services:
+Consulting, Marketing, Healthtech
+Organization Size:
+500+
+Project Objective
+Convert API documentation into SDK library and widget. Expected deliverables are SDK library and widgets for
+Web apps
+iOS apps
+Android Apps
+Project Description
+API documentation is available for a tool that allows customers to type in their medication and find the cheapest price near them. For partners who want to have it on their own site, currently using the API documentation but would like to ultimately be able to send them an embeddable widget that incorporates the tool on their site
+Our Solution
+We created a flutter widget that uses  SDK libraries that allows the customer to type their medication and find the cheapest price near them.
+This widget can be embedded in their web, android and IOS applications
+Project Deliverables
+1)SDK Library/Widget
+2)Sample flutter application
+Tools used
+Flutter
+Language/techniques used
+Dart
+Skills used
+1)Knowledge of dart language
+2)flutter app developing
+What are the technical Challenges Faced during Project Execution
+1 )Problems while fetching details of drugs and pharmacies
+2) Showing details of drugs and pharmacies in the widget
+How the Technical Challenges were Solved
+All technical challenges are solved by proper communication with the client and by logical analyzing of data
+Project Snapshots
+Project Video
+https://www.youtube.com/watch?v=MyNK_DPtsKA&ab_channel=Blackcoffer
+Previous article
+Integration of a product to a cloud-based CRM platform
+Next article
+An agent-based model of a Virtual Power Plant (VPP)
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+Can robots tackle late-life loneliness?
+December 2, 2020
+Data Driven Dashboards, Foundation and Application in Industry
+May 26, 2017
+Predictive Modelling, AI, ML Dashboards in Power BI
+June 26, 2021
+Is telehealth the future of healthcare?
+April 28, 2022
+Load more
+RECOMMENDED INSIGHTS
+Financial Modeling of the Investment Management Professionals
+Streamlining Time Calculation in Warehouse Management: Leveraging ShipHero API and Google...
+What do you think is the lesson (or lessons) to be...
+How Voice search makes your business a successful business.

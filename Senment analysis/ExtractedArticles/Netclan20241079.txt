@@ -1,0 +1,80 @@
+Title: Advanced AI for Handgun Detection - Blackcoffer Insights
+
+Home
+Our Success Stories
+Advanced AI for Handgun Detection
+Our Success Stories
+Infrastructure & Real Estate
+IT
+Production & manufacturing
+Advanced AI for Handgun Detection
+By
+Ajay Bidyarthy
+-
+July 21, 2023
+5965
+Client Background
+Client:
+A leading tech firm in the Middle East
+Industry Type:
+Security
+Services:
+Security services
+Organization Size:
+100+
+The Problem
+Detecting Handguns in images and videos.
+Our Solution
+We use Yolov7 instance segmentation model to detect and provide coordinates for handguns.
+Solution Architecture
+Linux 22.04
+Yolo
+Deliverables
+Trained model of yolov7 instance segmentation
+Tools used
+Openimages
+Roboflow
+Yolov7
+Language/techniques used
+Python
+Models used
+Yolov7_mask
+Skills used
+Deeplearning
+Programming
+What are the technical Challenges Faced during Project Execution
+Retrieving handgun images in bulk from opensource.
+How the Technical Challenges were Solved
+Found Openimages dataset with good amount of required images
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+Using Graph Technology to Create Single Customer View.
+Next article
+Advanced AI for Pedestrian Crossing Safety
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+Problems faced by students in online classes during COVID-19
+December 7, 2021
+Bank Risk Management in India
+June 1, 2019
+Code Review Checklist
+April 10, 2020
+Should celebrities be allowed to join politics?
+April 16, 2020
+Load more
+RECOMMENDED INSIGHTS
+What is the difference between Artificial Intelligence, Machine Learning, Statistics, and...
+Data Management, ETL, and Data Automation
+E-commerce Store Analysis – Purchase Behavior, Ad Spend, Conversion, Traffic, etc…
+Code Review Checklist

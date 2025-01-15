@@ -1,0 +1,6 @@
+Total 4 IP's
+
+192.168.88.108 - Local branch - CISCO Outlets
+192.168.1.108 - outstations - VPN Outlets
+192.168.80.171 and 172 - CVDC 
+192.168.100.

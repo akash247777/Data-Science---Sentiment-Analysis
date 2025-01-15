@@ -1,0 +1,64 @@
+Title: Amazon Buy Bot, an Automation AI tool to Auto-Checkouts - Blackcoffer Insights
+
+Home
+Our Success Stories
+Amazon Buy Bot, an Automation AI tool to Auto-Checkouts
+Our Success Stories
+Lifestyle & eCommerce
+Amazon Buy Bot, an Automation AI tool to Auto-Checkouts
+By
+Ajay Bidyarthy
+-
+June 26, 2021
+6570
+Client Background
+Client:
+A leading consulting firm in the USA
+Industry Type:
+Consulting
+Services:
+Management consultant
+Organization Size:
+100+
+Project Objective
+The main objective of this project is to build the automation tool to buy product on amazon.
+Project Description
+This project is basically completed using selenium and Python. All we have done is write a python script for automation using Selenium.
+Make some clicks use logics to check item is in stock or not. If the item is in stock then it buys the product otherwise repeat the process again.
+Our Solution
+A simple python code which uses selenium web driver to do all work.
+Project Deliverables
+Python Code
+Tools used
+Selenium Webdriver
+Language/techniques used
+Python
+Skills used
+Web Scraping
+Selenium
+Project Snapshots
+Previous article
+Predictive Modelling, AI, ML Dashboards in Power BI
+Next article
+How does Big Data Help in Finance and the Growth of Large Firms?
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+Streamlined Trading Operations Interface for MetaTrader 4: Empowering Efficient Management and...
+March 17, 2024
+How machine learning will affect your business?
+May 29, 2021
+How AI will change the World?
+May 29, 2021
+Coronavirus, the unexpected challenge for the European union
+March 30, 2020
+Load more
+RECOMMENDED INSIGHTS
+How AI will impact the future of work?
+The Metaverse and its Implications for our Digital Future.
+An outlook of healthcare by the year 2040, and how it...
+How AI will help the Defense Power of a country?

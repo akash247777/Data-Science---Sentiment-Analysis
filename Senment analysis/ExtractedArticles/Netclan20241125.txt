@@ -1,0 +1,74 @@
+Title: Impact of news, media, and press on innovation, startups, and investments - Blackcoffer Insights
+
+Home
+Our Success Stories
+Impact of news, media, and press on innovation, startups, and investments
+Our Success Stories
+Research & Academia
+Impact of news, media, and press on innovation, startups, and investments
+By
+Ajay Bidyarthy
+-
+January 16, 2022
+5831
+Client Background
+Client:
+A leading research institution in the word
+Industry Type:
+Research, R&D
+Services:
+R&D
+Organization Size:
+1000+
+Project Objective
+Make data ready for predictive modelling.
+Making Google Data Studio dashboard.
+Project Description
+Phase – 1: In this project first of all we have to clean the data as the data was very noisy, we have to filter out only the needed columns of the data.
+Phase – 2: Finding co-relation between the pitchbook data and the other output files.
+Phase – 3: Making dashboard in Google Data Studio for the project.
+Our Solution
+We used pandas and numpy to clean the data and make useful for it to be used in predictive modelling. We have found the co-relation between the tempa msa pitchbook data and the output files like textual file, ai_ml_tm file etc. We have made the dashboard using the Google Data Studio.
+Project Deliverables
+We have provided a excel file consisting of clean data and the Google Data Studio report.
+Tools used
+Python, Google Data Studio, Google Chrome
+Language/techniques used
+Python Programming
+Models used
+Waterfall model used in this project.
+Skills used
+Data cleaning, Data Pre-processing, Data Visualisation are used in this project.
+Databases used
+We have used the traditional file systems as database storage.
+What are the technical Challenges Faced during Project Execution
+Cleaning the data was the major challenge faced while executing the project. The data has a lot of noise. It was difficult to find which data was useful and which data is not useful in this project. Secondly the co relation between the output files and pitchbook data. There was nothing common between both the datasets. So was difficult to find co-relation between them.
+How the Technical Challenges were Solved
+We used pandas dataframe to clean the data and make it ready for predictive modelling and used the Google Data studio to find insights between the different datasets.
+Project Snapshots
+Project Video
+Previous article
+AWS QuickSight Reporting Dashboard
+Next article
+How Metaverse is Shaping the Future?
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+Advanced Patient Data Analysis Solution for Trend Identification and Improved Healthcare...
+August 25, 2024
+Due to the COVID-19 the repercussion of the environment
+June 18, 2020
+End-to-end tool to optimize routing and planning of field engineers using...
+February 28, 2024
+Analytics Advantages in Broadcasting Industry
+February 9, 2019
+Load more
+RECOMMENDED INSIGHTS
+Enhancing Model Accuracy from 58% to Over 90%: Strategies for Improving...
+Building an Analytics Dashboard with a PDF Parsing Pipeline for Data...
+IoT, AI, ML to Detect Fire and Smoke
+Internet Demand’s Evolution, Communication Impact, and 2035’s Alternative Pathways

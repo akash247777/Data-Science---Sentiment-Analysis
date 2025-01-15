@@ -1,0 +1,85 @@
+Title: Using Graph Technology to Create Single Customer View. - Blackcoffer Insights
+
+Home
+Our Success Stories
+Using Graph Technology to Create Single Customer View.
+Our Success Stories
+Fast Moving Consumer Goods
+Retail & Supply Chain
+Using Graph Technology to Create Single Customer View.
+By
+Ajay Bidyarthy
+-
+July 21, 2023
+5869
+Client Background
+Client:
+A leading retail firm in Newzealand
+Industry Type:
+Retail
+Services:
+Retail business
+Organization Size:
+100+
+The Problem
+Companies face issue of having a Single customer under various rows with slightly different information in the same database. This causes unwanted duplication and inaccurate statistics. It also results in inaccurate ad targeting and financial loss.
+Our Solution
+We leverage graph technology to create a single customer view by using Complex cypher queries  and Graph Algorithms.
+Solution Architecture
+We have an Azure VM on which we have installed the Neo4j Database. Deployment architecture is a single Instance because of using the Community version of the software.
+Deliverables
+Populated Neo4j Database.
+Required Cypher Queries.
+Tools used
+Neo4j
+Graphlytics
+Language/techniques used
+Java
+Cypher Query
+Models used
+Node-Relationship model
+Skills used
+Data Analytics
+Data Engineering
+Data Science
+Databases used
+Neo4j
+Web Cloud Servers used
+AZURE
+What are the technical Challenges Faced during Project Execution
+Only 1 Difficulty was faced in this Project and that was to migrate data from Elasticsearch to Neo4j.
+How the Technical Challenges were Solved
+Research and Experimentation.
+Project Snapshots
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+Car Detection in Satellite Images
+Next article
+Advanced AI for Handgun Detection
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+How to overcome your fear of making mistakes?
+August 20, 2020
+Obstacles to data-driven Healthcare
+July 19, 2019
+The Metaverse and its Implications for our Digital Future.
+February 3, 2022
+Auvik, Connectwise integration in Grafana
+July 13, 2022
+Load more
+RECOMMENDED INSIGHTS
+Recommendation Engine for Insurance Sector to Expand Business in the Rural...
+Is Perfection the Greatest enemy of Productivity?
+Advanced AI for Trading Automation
+Design and develop a retool app that will show stock and...

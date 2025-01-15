@@ -1,0 +1,71 @@
+Title: Incident Duration Prediction - Infrastructure and Real Estate - Blackcoffer Insights
+
+Home
+Our Success Stories
+Incident Duration Prediction – Infrastructure and Real Estate
+Our Success Stories
+Infrastructure & Real Estate
+Research & Academia
+Incident Duration Prediction – Infrastructure and Real Estate
+By
+Ajay Bidyarthy
+-
+February 27, 2022
+5784
+Client Background
+Client:
+A leading research institution in the middle east
+Industry Type:
+Research
+Services:
+R&D
+Organization Size:
+1000+
+Project Objective
+To complete a Research Paper draft by training various Machine Learning models which can predict the Incident Duration based on various parameters given in the dataset and summarising the results.
+Project Description
+Given a set of researches, need to analyse and compare various machine learning and deep learning models to predict the Incident Duration for the given dataset. The dataset contained Short durations as well as Long durations. Build models for each set of durations, compare and get the best out of all.
+Our Solution
+Here, we had to predict the traffic incident duration with some machine learning tools and techniques i.e. XGBoost, SVR and Deep Learning algorithm using tensor flow. First two models were run on Python Interpreter whereas Deep learning model was run on R studio, all the three with the same dataset and then we had compared these models based on their MAE (mean absolute error). Initially, we had done a preliminary analysis of the collected incident duration data, to collect the statistical characteristics of all the variables used in our research.
+Project Deliverables
+Python Script for each model.
+Documentation for Research Work.
+Tools used
+Python Interpreter
+Language/techniques used
+Language Used: Python
+Libraries Used: pandas, sklearn, numpy, keras, pickle
+Models used
+XGBRegressor
+SVR
+SGDRegressor
+Sequential
+DecisionTreeRegressor
+Skills used
+Programming, Statistical Analysis
+Project Snapshots
+Previous article
+Statistical Data Analysis of Reinforced Concrete
+Next article
+How does Metaverse work in the Financial sector?
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+How the COVID-19 crisis is redefining jobs and services?
+August 15, 2020
+Replacing existing pavement roads, parking lots and sidewalks with pavement made...
+July 17, 2019
+Marketing Ads Leads Call Status Data Tool to BigQuery
+August 30, 2021
+Text to Speech, html
+May 10, 2019
+Load more
+RECOMMENDED INSIGHTS
+Rise of Electric Vehicles and its Impact on Livelihood by 2040
+The future of Fintech AI & blockchain.
+Big Data Platform and Data Lake Tool
+Streamlined Trading Operations Interface for MetaTrader 4: Empowering Efficient Management and...

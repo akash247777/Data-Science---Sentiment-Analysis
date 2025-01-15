@@ -1,0 +1,74 @@
+Title: Power BI Data-Driven Map Dashboard - Blackcoffer Insights
+
+Home
+Our Success Stories
+Power BI Data-Driven Map Dashboard
+Our Success Stories
+IT
+Power BI Data-Driven Map Dashboard
+By
+Ajay Bidyarthy
+-
+February 26, 2022
+6289
+Client Background
+Client:
+A leading marketing firm in the USA
+Industry Type:
+Market Research
+Services:
+Marketing, Consultancy
+Organization Size:
+60+
+Project Objective
+Change bubble colors dynamically.
+Make table and charts linked. If a user clicks on tables values, then the bubble chart on the map should be highlighted that relates to the table.
+Project Description
+“I have a map visual. I would like to dynamically change the colours of some of the bubbles.”
+The report page has several filters and KPI Dashboard, whose metrics change dynamically when the user clicks a certain element. Similarly the map should also change dynamically relative to the filter.
+Our Solution
+Added the website data from Details table to the map visualization, it makes the bubbles get coloured dynamically according to the requirement for websites data.
+Project Deliverables
+The Power BI ( .pbix ) file updated with solution
+Tools used
+Power BI
+Skills used
+Power BI
+Data Visualization
+Data Analysis
+Databases used
+The database that came in with the Power BI file received from client
+What are the technical Challenges Faced during Project Execution
+The map was not linked
+Map Bubbles were not dynamic
+How the Technical Challenges were Solved
+Refactoring the data model and using appropriate keys to link the data together
+That made Map to change according to Slicers/Filters
+To Change the colour, Bookmark buttons were used in the dashboard to bring up the dynamic colour changing with slicing (works after being published)
+Project Snapshots
+Project Video
+Previous article
+AI Conversational Bot using RASA
+Next article
+Electric Vehicles (EV) Load Management System to Forecast Energy Demand
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+How to Connect a Domain and Install WordPress on Microsoft Azure
+February 15, 2020
+Data Analytics Solution for the Hospitality Industry
+March 17, 2020
+Healthcare Data Analysis
+August 22, 2021
+Impacts of COVID 19 on Food products
+November 6, 2021
+Load more
+RECOMMENDED INSIGHTS
+Human Rights Outlook
+Traction Dashboards of Marketing Campaigns and Posts
+Artificial intelligence in business: Separating the real from the hype
+Digital Transformation in Oil and Gas

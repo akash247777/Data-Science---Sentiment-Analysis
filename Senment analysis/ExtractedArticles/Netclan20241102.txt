@@ -1,0 +1,72 @@
+Title: Design & develop an app in retool which shows the progress of the added video - Blackcoffer Insights
+
+Home
+Our Success Stories
+Design & develop an app in retool which shows the progress of...
+Blackcoffer
+Our Success Stories
+IT
+Design & develop an app in retool which shows the progress of the added video
+By
+Ajay Bidyarthy
+-
+August 24, 2022
+5703
+Client Background
+Client:
+A Leading Tech Firm in the USA
+Industry Type:
+IT & Consulting
+Services:
+Software, Business Solutions, Consulting
+Organization Size:
+200+
+Project Description
+The objective was to develop a progress bar that can help costumes to estimate the analytics of the video.
+Our Solution
+The client wanted a progress bar with the following filters:
+Date filter: – Update the progress bar and count of the videos according to the date selected
+Category filter: – Update the progress bar and the count of the videos according to the selected category
+We have created a SQL query for getting a count of the videos from the full video table according to the filter selected in the app
+In added video table some columns were missing to solve this we created a SQL query for joining the added video table to the other tables and return the count of the video according to the filter selected
+Project Deliverables
+App in retool
+Tools used
+Retool
+Language/techniques used
+SQL
+Skills used
+SQL
+Databases used
+SQL Database
+What are the technical Challenges Faced during Project Execution
+Client wanted date filter and a video category filter but this data was not there in added video table
+How the Technical Challenges were Solved
+We had to join multiple data so that we can get category column and date column for applying filter
+Project Snapshots
+Project Video
+Previous article
+Rise of Electric Vehicles and its Impact on Livelihood by 2040
+Next article
+Integration of video-conferencing data to the existing web app
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Integrating Machine Learning Code into Kubeflow Pipeline – Kuberflow MLOps Kubernetes
+Facial Recognition Attendance System
+Face Recognition Using DeepFace
+MOST POPULAR INSIGHTS
+What is the future of mobile apps?
+February 12, 2021
+How Voice search makes your business a successful business.
+July 29, 2020
+Car Detection in Satellite Images
+July 21, 2023
+Database Discovery Tool using OpenAI
+January 20, 2024
+Load more
+RECOMMENDED INSIGHTS
+Impact of COVID-19 pandemic on entertainment industries such as theaters.
+Descriptive vs Inquisitive vs Predictive Analytics
+Rise of electric vehicle and its impact on livelihood by the...
+How Will AI Make Decisions In Tomorrow’s Wars?
